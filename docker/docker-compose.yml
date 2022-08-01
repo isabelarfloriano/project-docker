@@ -1,0 +1,7 @@
+version: '3'
+services:
+  todoback:
+    build: todo-app/back-end/
+    restart: always
+    ports:
+      - 3001:3001
