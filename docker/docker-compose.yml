@@ -14,4 +14,11 @@ services:
       - todoback
     environment:
       - REACT_APP_API_HOST=todoback
-      
+  todotests:
+    build: todo-app/tests/
+    restart: always
+    depends_on:
+      - todoback
+      - todofront
+    environment:
+      - FRONT_HOST=frontend
