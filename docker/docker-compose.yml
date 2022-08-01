@@ -21,4 +21,4 @@ services:
       - todoback
       - todofront
     environment:
-      - FRONT_HOST=frontend
+      - FRONT_HOST=todofront
