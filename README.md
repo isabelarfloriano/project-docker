@@ -1,16 +1,19 @@
-# 🚧 README em construção 🚧
+# Boas-vindas ao repositório do projeto Docker!
+### Projeto desenvolvido durante o módulo de back-end da Trybe
 
-<!-- Olá, Tryber!
+Neste projeto realizei:
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+1. **_Conteinerização_** das aplicações;
+1. Criação de uma conexão entre elas;
+1. Orquestração seu funcionamento.
 
-É essencial que você preencha esse documento por conta própria, ok?
+Temos uma aplicação full-stack neste repositório: um **aplicativo de tarefas**, que foi disponibilizada pela Trybe(https://www.betrybe.com/) para desenvolvimento do projeto.
+Criar as imagens para as aplicações e configurei essas imagens com o `docker-compose`.
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+Para isto, utilizei uma série de comandos do `docker` com diferentes níveis de complexidade.
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
-
--->
+Cada comando foi escrito em seu próprio arquivo dentro da pasta `./docker` composta por:
+ 
+ 1. Pasta `docker-commands`: onde ficaram os comandos do CLI *(Interface de Linha de Comando)* do Docker que resolviam os requisitos propostos pela instituição.
+ 2. Pasta `todo-app`: onde fica a **pseudo-aplicação**, que serviu como base para os `Dockerfile`s e `Compose` desenvolvidos por mim.
+ 3. Arquivo `docker-compose.yml` criado para a orquestração das aplicações.
